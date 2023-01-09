@@ -27,4 +27,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         cache-dependency-path: 'Frontend/package.json'
-        -run: npm install
+        sh: npm install
