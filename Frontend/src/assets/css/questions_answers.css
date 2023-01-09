@@ -1,0 +1,88 @@
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 95%; /* Can be in percentage also. */
+  height: auto;
+
+  /* Visual  */
+  background-color: #ffff;
+  padding: 16px;
+  border-radius: 16px;
+  color: #23468c;
+  box-shadow: #45458b40 0px 30px 60px -12px,
+    rgba(255, 255, 255, 0.3) 0px 18px 36px -18px;
+}
+
+.answer_class {
+  list-style: none;
+}
+
+.question-text {
+  color: #23468c;
+  font-size: 16px;
+}
+
+.question-text2 {
+  color: #23468c;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.final-results {
+  margin: 0 auto;
+  width: 50%; /* Can be in percentage also. */
+  height: auto;
+  margin-top: 64px;
+  background-color: rgb(207, 200, 200);
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.my_radio {
+  accent-color: #23468c;
+  height: 15px;
+  width: 20px;
+}
+.radio_text {
+  font-size: 14px;
+}
+
+.btn_grad {
+  background-image: linear-gradient(
+    to right,
+    #6288e1 0%,
+    #24468c 51%,
+    #81a1ed 100%
+  );
+  margin: 10px;
+  padding: 7px 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+.btn_grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.stepsheading {
+  color: #23468c;
+  font-size: 22px;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}

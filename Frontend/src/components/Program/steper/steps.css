@@ -1,0 +1,71 @@
+.steplink {
+  color: #666;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.arrow-steps {
+  line-height: 16px;
+}
+.arrow-steps .step:after,
+.arrow-steps .step:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: -17px;
+  width: 0;
+  height: 0;
+  border-top: 19px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 17px solid #d9e3f7;
+  z-index: 2;
+  transition: border-color 0.2s ease;
+}
+.arrow-steps .step:before {
+  right: auto;
+  left: 0;
+  border-left: 17px solid #f7f7f8;
+  z-index: 0;
+}
+.arrow-steps .step:first-child:before {
+  border: none;
+}
+.arrow-steps .step:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.arrow-steps .step span {
+  position: relative;
+}
+.arrow-steps .step.current {
+  color: #fff;
+  background-color: #5878b8;
+}
+.arrow-steps .step.complete {
+  color: rgb(0, 0, 0);
+  background-color: rgb(137, 208, 137);
+}
+.arrow-steps .step.current:after {
+  border-left: 17px solid #5878b8;
+}
+.arrow-steps .step.complete:after {
+  border-left: 17px solid rgb(137, 208, 137);
+}
+.arrow-steps .step {
+  font-size: 14px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  cursor: default;
+  margin: 0 3px 5px;
+  padding: 10px 10px 10px 30px;
+  min-width: 180px;
+  float: left;
+  position: relative;
+  background-color: #d9e3f7;
+  transition: background-color 0.2s ease;
+}
+.home {
+  margin-top: 20px;
+}

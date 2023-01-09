@@ -1,0 +1,32 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - plugin:react/recommended
+  - standard-with-typescript
+  - prettier
+overrides: []
+parser: "@typescript-eslint/parser"
+parserOptions:
+  ecmaVersion: latest
+  ecmaFeatures:
+    jsx: true
+  sourceType: module
+  project: "./tsconfig.json"
+plugins:
+  - react
+  - "@typescript-eslint"
+settings:
+  react:
+    version: detect
+rules:
+  "@typescript-eslint/explicit-function-return-type": off
+  "@typescript-eslint/no-floating-promises": off
+  no-console: 1
+  jsx-quotes:
+    - error
+    - prefer-double
+  func-style:
+    - error
+    - declaration
+    - allowArrowFunctions: true

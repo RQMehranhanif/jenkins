@@ -1,0 +1,20 @@
+.navbar {
+  height: 40px;
+}
+
+.nav-bar {
+  width: 100%;
+}
+.required-field::after {
+  content: "*";
+  color: red;
+}
+.ant-modal-wrap {
+  z-index: 1000 !important;
+}
+.ant-tabs-left > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-left > div > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-right > .ant-tabs-nav .ant-tabs-tab,
+.ant-tabs-right > div > .ant-tabs-nav .ant-tabs-tab {
+  padding-left: 0;
+}

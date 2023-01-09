@@ -1,0 +1,16 @@
+.main-card {
+  margin: 10px;
+}
+.main-heading {
+  color: #23468c;
+}
+.table-light {
+  color: #23468c !important;
+}
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  color: #23468c;
+}
+.table-primary {
+  padding: 0px 0px !important;
+}

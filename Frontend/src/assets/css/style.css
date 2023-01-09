@@ -1,0 +1,81 @@
+.order-card {
+}
+
+.bg-c-blue {
+  background-color: rgb(63, 63, 63);
+}
+
+.bg-c-green {
+  background-color: rgb(63, 63, 63);
+}
+
+.bg-c-yellow {
+  background-color: rgb(63, 63, 63);
+}
+
+.bg-c-pink {
+  background-color: rgb(63, 63, 63);
+  /* background-color: white; */
+}
+
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 9px 29px 0px;
+  border: 9px;
+  border-radius: 9px;
+  min-width: 180px;
+  min-height: 200px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.cards {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 9px 29px 0px;
+  border: 9px;
+  border-radius: 9px;
+  min-width: 180px;
+  min-height: 100px;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.m-b-0 {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.card .card-block {
+  padding: 18px;
+}
+.cards .card-block {
+  padding: 18px;
+}
+.card-block .foricon {
+  font-size: 35px;
+}
+
+.order-card i {
+  font-size: 50px;
+  margin: 0;
+}
+
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.link {
+  text-decoration: none;
+}
+
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th,
+.ant-table tfoot > tr > td,
+.ant-table tfoot > tr > th {
+  padding: 5px;
+}
+.rc-dyn-tabs-tablist
+  > .rc-dyn-tabs-tab.rc-dyn-tabs-selected
+  > .rc-dyn-tabs-title {
+  border-color: #17a2b8 !important;
+}
