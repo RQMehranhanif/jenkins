@@ -43,7 +43,7 @@
     "reactstrap": "^9.1.5",
     "sass": "^1.56.1",
     "uploader": "^3.0.2",
-    "web-vitals": "^2.1.4",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
