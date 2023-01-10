@@ -1,0 +1,25 @@
+node{
+    stage('Git'){
+        git branch: 'master', credentialsId: 'test', url: 'https://github.com/RQMehranhanif/jenkins.git'
+    }
+    stage('Nodejs Installation'){
+    nodejs('18.13.0') {
+    // sh 'npm cache clean --force'
+    sh 'npm --prefix /var/jenkins_home/workspace/newpipline/Frontend i reactstrap --legacy-peer-deps'
+    // sh 'tar -cvzf --prefix /var/jenkins_home/workspace/newpipline/Frontend/php/php.tar.gz .'
+    
+    
+    }
+    }
+    stage('php version'){
+        sh 'php --version'
+    //   sh 'php composer.phar init'
+    // sh 'cd /var/jenkins_home/workspace/newpipline/Backend composer install'
+
+    }
+    // stage('Archive'){
+    //     archiveArtifacts artifacts: '**/*.*', followSymlinks: false
+    // }
+    
+    
+}
