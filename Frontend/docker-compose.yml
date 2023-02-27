@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  react-app:
+  react-app: my-react-app
     build:
       context: .
       dockerfile: Dockerfile
@@ -16,7 +16,7 @@ services:
       - api
 
   api:
-    image: my-api-image
+    image: my-react-app
     ports:
       - "5000:5000"
     environment:
